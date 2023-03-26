@@ -1,0 +1,668 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+   font-family:"manrope-light";
+   
+   src: url("manrope/manrope-light.woff"); format:"woff";
+  
+}
+@font-face {
+    font-family:"manrope-bold";
+    src: url("manrope/manrope-bold.woff"); format:"woff";
+    src: url("manrope/manrope-bold.woff2"); format:"woff2";
+}
+@media screen and (max-width:456px) {
+    nav a{
+        padding: 20px 10px;
+    }
+    
+}
+@media screen and (max-width:331px) {
+    header,
+    nav a ,div,span,button
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+header{
+    margin:30px ;
+    width: 100%;
+    padding: 0 30px;
+    display: inline-flex;
+    flex-direction: row;
+}
+header nav{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 15px;
+
+    
+}
+header h1{
+    margin-top: 15px;
+    padding: 30px;
+}
+.home2{
+    margin-top:15px;            
+}
+
+header a{
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+    font-family: "manrope-bold";
+    font-style: normal;
+    display: inline-flex;
+
+
+
+}
+header div{
+    display:inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "manrope-light";
+    margin-left: 300px;
+    
+}
+header .home2{
+    margin-right: 0;
+
+}
+
+
+
+.button{
+    color: aliceblue;
+    background-color:#4D77FF;
+    font-family: "manrope-light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 97px; 
+    height:44px ;
+    padding: 12px 22px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+header h1{
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    font-family:"manrope-light"; 
+
+}
+.home1::before{
+    content:"Healhty";
+    color:#4D77FF ;
+    
+
+}
+.tablet1  .temp h2{
+    font-family: "manrope-bold";
+    font-weight: 700px;
+    font-size: 54px;
+    margin-left: 100px;
+    margin-top: 184px;
+}
+.tablet1 p,.button{
+    font-family:"manrope-light" ;
+    margin-left: 101px;
+    margin-top:26px ;
+    font-weight: 400px;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+.home3::after{
+    content: "Everyone";
+    color: #4D77FF;
+}
+.temp{
+    border: 10px solid white;
+    width: 634px;
+    height: 140px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.temp .img1{
+    position: absolute;
+    width: 600px;
+    height:600px ;
+    left: 702px;
+    top:200px;
+    background-image: url(images/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-position: right bottom;
+    background-size: contain;
+
+
+}
+.tablet1 p{
+    font-size:14px ;
+    font-weight: 400;
+}
+.button-4{
+    color: aliceblue;
+    background-color:#4D77FF;
+    font-family: "manrope-light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 162px; 
+    height:52px ;
+    padding: 16px 36px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 26px;
+    margin-left: 100px;
+    
+
+    
+}
+
+ .tablet2 h5,h3{
+    align-items: center;
+    justify-content: center;
+    font-family: "manrope-bold";
+    margin-top:50px ;
+
+}
+.tablet2 strong{
+    font-family:"manrope-bold" ;
+}
+.tablet2 p{
+    font-family: "manrope-light";
+    font-weight: 400;
+    font-size: 14px;
+
+}
+p:hover{
+    background-color:rgb(124, 176, 223);
+    color:aliceblue;
+}
+strong:hover{
+    background-color:rgb(124, 176, 223);
+    color:aliceblue;
+}
+
+.button-4:hover{
+    background-color:rgb(124, 176, 223);
+    color:aliceblue;
+}
+.button-2:hover{
+    background-color:rgb(124, 176, 223);
+    color:aliceblue;
+}
+.button-3:hover{
+    background-color:rgb(124, 176, 223);
+    color:aliceblue;
+}
+.button:hover{
+    background-color:rgb(124, 176, 223);
+    color:aliceblue;
+}
+nav a:hover{
+    background-color:rgb(124, 176, 223);
+    color:aliceblue;
+}
+strong:hover{
+    background-color:rgb(124, 176, 223);
+    color:aliceblue;
+}
+.tablet2{
+    margin-top: 600px;
+    margin-left: 40px;
+}
+.tablet2  h5{
+    margin-left: 600px;
+    color: #4D77FF;
+}
+.tablet2  h3{
+    margin-left: 500px;
+}
+.code786{
+    width: 287px;
+    height: 226px;
+    border-radius: 0px 0px 10px 10px;
+    border-top: 7px solid #4D77FF;
+    background: white;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 54px;
+    padding: 50px;
+    box-shadow: 1px 1px 20px rgb(192, 185, 185);
+    
+}
+
+
+.tablet3{
+    margin-top: 400px;
+}
+.tablet3 h5{
+    text-decoration: none;
+    color: #4D77FF;
+    margin-top:50px ;
+}
+.tablet3 h5,h3{
+    
+    margin-left:101px;
+    font-family: "manrope-bold";
+   
+
+}
+.tablet3 h3{
+    margin-top:20px ;
+    width:493px ;
+    height:80px ;
+    margin-left: 101px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.para{
+    border: 10px solid white;
+    width: 634px;
+    height: 140px;
+    display: inline-flex;
+    flex-direction:column;
+
+}
+
+.para .doctor{
+    position: absolute;
+    width: 600px;
+    height:600px ;
+    left: 702px;
+    top:1330px;
+    margin-top: 400px;
+    background-image: url(images/circle.png);
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-position: right bottom;
+    background-size: contain;
+
+}
+.tablet3 p{
+    font-family:"manrope-light" ;
+    margin-left: 101px;
+    margin-top:26px ;
+    font-weight: 400px;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+.tablet3 .button-2{
+    font-family:"manrope-light" ;
+    margin-left: 101px;
+    margin-top:26px ;
+    text-decoration: none;
+}
+.pin::before{
+    content:url("images/Ellipse\ 4.png");
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.button-2{
+    color: aliceblue;
+    background-color:#4D77FF;
+    font-family: "manrope-light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; 
+    height:52px ;
+    width: 200px;
+    padding: 16px 36px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+
+    
+}
+.tablet4{
+    margin-top: 400px;
+}
+.tablet4 h5{
+    text-decoration: none;
+    color: #4D77FF;
+    margin-top:50px ;
+
+}
+.tablet4 h5,h3{
+    
+    margin-left:100px;
+    font-family: "manrope-bold";
+}
+.tablet4 p{
+    margin-left: 100px;
+    font-family: "manrope-light";
+    width: 472px;
+    height: 60px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.tablet4 h3{
+    margin-top:20px ;
+    top: 30px;
+    font-weight: 700px;
+    font-size: 30px;
+    width: 441px;
+    height: 80px;
+    margin-left: 100px;
+
+}
+.make{
+    border: 10px solid white;
+    width: 472px;
+    height: 60px;
+    display: inline-flex;
+    flex-direction:column;
+    margin-left: 789px;
+    top: 2069px;
+
+}
+.button-3{
+    color: aliceblue;
+    background-color:#4D77FF;
+    font-family: "manrope-light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; 
+    height:52px ;
+    width: 236px;
+    padding: 16px 36px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-left: 100px;
+
+    
+}
+.tablet4 .button-3{
+    font-family:"manrope-light" ;
+    margin-left: 100px;
+    margin-top:26px ;
+    text-decoration: none;
+}
+.concern{
+    position: absolute;
+    width: 707px;
+    height:472px ;
+    left: 94px;
+    top:2400px;
+    border-radius: 300px;
+    border: 2px ridge #4D77FF;
+    margin-top: 200px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+
+}
+.point{
+    list-style-position: outside;
+list-style-image: url("images/Vector.png");
+}
+
+.point::before{
+    content:url("images/Ellipse\ 4.png");
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.tablet5 h5,h3{
+    align-items: center;
+    justify-content: center;
+    font-family: "manrope-bold";
+    margin-top:30px ;
+
+}
+.tablet5{
+    margin-top: 600px;
+    margin-left: 40px;
+}
+.tablet5  h5{
+    margin-left: 650px;
+    color: #4D77FF;
+}
+.tablet5  h3{
+    margin-left: 500px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "manrope-bold";
+    width: 417px;
+    height: 80px;
+    text-align: center;
+}
+.rate{
+    width: 287px;
+    height: 226px;
+    border-radius:0 0 10px 10px;
+    border-top: 7px solid #4D77FF;
+    background: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 54px;
+    padding: 50px;
+    box-shadow: 1px 1px 20px rgb(192, 185, 185);
+    
+}
+.rate{
+    margin-left: 100px;
+}
+.rate span{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "manrope-bold";
+
+}
+.rate h4{
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "manrope-bold";
+}
+.rate strong{
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "manrope-bold";
+    color: grey;
+}
+.tablet6{
+    margin-top: 200px;
+    
+}
+span:hover{
+    background-color:rgb(124, 176, 223);
+    color:aliceblue;
+}
+h4:hover{
+    background-color:rgb(124, 176, 223);
+    color:aliceblue;
+}
+h5:hover{
+    background-color:rgb(124, 176, 223);
+    color:aliceblue;
+}
+h3:hover{
+    background-color:rgb(124, 176, 223);
+    color:aliceblue;
+}
+.tablet6  .patient1,.patient2 {
+background-color: #EDF1FF;
+background-size:contain;
+
+
+}
+
+.tablet6 p{
+    text-decoration: none;
+    font-family: "manrope-light";
+    font-weight: 400px;
+    font-size: 25px;
+    margin-top:50px ;
+
+}
+.tablet6 span{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left:10px;
+    font-family: "manrope-bold";
+    margin-top: 150px;
+    
+}
+.tablet6 strong{
+    font-family: "manrope-light";
+    margin-left:10px ;
+    color:rgb(146, 139, 139);
+}
+.tablet4 p{
+    margin-left: 100px;
+    font-family: "manrope-light";
+    width: 553px;
+    height: 160px;
+    margin-bottom: 26px;
+
+}
+
+.patient1{
+    border: 10px solid white;
+    width: 671px;
+    height: 441px;
+    display: inline-flex;
+    flex-direction:column;
+    margin-top: 100px;
+    padding:12px 114px 75px 137px ;
+    position: relative;
+   
+}
+.patient2{
+    border: 10px solid white;
+    width: 671px;
+    height: 441px;
+    display: inline-flex;
+    flex-direction:column;
+    position: absolute;
+    margin-top:100px ;
+
+   
+}
+.boy{
+    border: 2px ridge #4D77FF;
+    padding-right: 10px;
+    padding-bottom:10px ;
+    
+}
+.tablet6 h3{
+    font-family: "manrope-bold";
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 300px;
+}
+.tablet6 h5{
+    font-family: "manrope-light";
+    text-align: center;
+    color: rgb(211, 201, 201);
+    margin-left: 100px;
+}
+.arrow{
+    width: 33.3px;
+    height: 16.67px;
+    top: 11.67px;
+    left: 3.33px;
+    color: black;
+    margin-left:600px ;
+}
+.colon{
+    background-image: url("images/coolicon\ \(2\).png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: local;
+    width: 33.3px;
+    height: 16.67px;
+
+    
+}
+footer{
+    margin-top: 200px;
+}
+footer h4{
+    font-family:"manrope-bold" ;
+    font-weight:700 ;
+    font-size: 24px ;
+    width: 175px;
+    height: 33px;
+    margin-top: 30px;
+    text-align: left;
+
+  
+}
+footer p{
+    font-family: "manrope-light";
+}
+
+.foot{
+    margin-left: 10px ;
+    display:inline-flex;
+    flex-direction: column;
+    width: 428px;
+    height: 80px;
+    margin-left: 100px;
+    border:1px solid white ;
+
+
+    
+
+    
+}
+.foot1{
+    display:inline-flex;
+    flex-direction: column;
+    width:120px;
+    height: 200px;
+    margin-left: 50px;
+    border:1px solid white ;
+     
+}
+.icon{
+    margin-right: 10px;
+}
+.social{
+    width: 21px;
+    height: 20px;
+    top: 11.67px;
+    left: 3.33px;
+    color: black;
+    margin: 10px;
+    display: inline-flex;
+    flex-direction: row;
+
+}
